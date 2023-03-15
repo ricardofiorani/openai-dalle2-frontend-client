@@ -28,7 +28,7 @@ This project has two pages:
 1.  **Generate Image**: This page allows you to generate a single image based on a prompt. Simply enter your prompt and click on the "Generate" button. The image will be displayed on the screen.
 
 2.  **Gallery**: This page displays a gallery of all the previously generated images. The images and their corresponding prompts are stored locally using local storage.
-
+> PS: Keep in mind that the local storage only stores the URL of the image coming from the OpenAI API. These URLs are signed with a time to live of 1 hour.
 ## But Why?
 If you use Dalle on OpenAI labs, after the free tier you will have to pay for credits to generate images.
 
