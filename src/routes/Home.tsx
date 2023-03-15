@@ -23,10 +23,14 @@ const Home: React.FC = () => {
                 Prompt:
             </div>
             <div>
-                <textarea disabled={isLoading} value={prompt} onChange={handlePromptChange}/>
-                <button disabled={isLoading} onClick={handleGenerate}>
-                    {isLoading ? "Loading..." : "Generate"}
-                </button>
+                <div>
+                    <textarea disabled={isLoading} value={prompt} onChange={handlePromptChange}/>
+                </div>
+                <div>
+                    <button disabled={isLoading} onClick={handleGenerate}>
+                        {isLoading ? "Loading..." : "Generate"}
+                    </button>
+                </div>
             </div>
             {imageUrl && !isLoading && (
                 <div>

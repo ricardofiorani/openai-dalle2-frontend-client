@@ -48,10 +48,13 @@ textarea {
     font-size: 1.5em;
     border: 1px solid #ccc;
     border-radius: 0.5em;
-    margin: 0.5em;
     min-height: 225px;
     scroll-behavior: auto;
-    min-width: 70vw;
+    width: 70vw;
+    margin: 15px;
+    box-sizing: border-box;
+    display: block;
+    max-width: 1280px;
 }
 
 .main-nav {
@@ -60,8 +63,8 @@ textarea {
     align-items: center;
     margin-bottom: 1em;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 15px;
+    left: 15px;
 }
 
 .main-nav ul {
